@@ -1,43 +1,56 @@
 /* all common css start */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     /* font-family: "Be Vietnam Pro", sans-serif; */
     /* font-family: "Outfit", sans-serif; */
-     /* font-family: "Lato", sans-serif; */
-     /* font-family: "Poppins", sans-serif; */
+    /* font-family: "Lato", sans-serif; */
+    /* font-family: "Poppins", sans-serif; */
 }
-ul ,ol{
+
+ul,
+ol {
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
-a,a:hover{
+
+a,
+a:hover {
     display: inline-block;
     text-decoration: none;
 }
 
-h1, h2, h3, h4 , h5,h6 ,p{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     line-height: 1.4;
 }
 
 /* all common css end */
 /* header section style start */
-.navbar-nav .nav-item .nav-link{
+.navbar-nav .nav-item .nav-link {
     font-size: 16px;
     font-weight: 400;
     color: #4D4D4D;
     font-family: "Be Vietnam Pro", sans-serif;
 
 }
-.navbar-nav .nav-item .nav-link:hover{
-   
+
+.navbar-nav .nav-item .nav-link:hover {
+
     color: #36B864;
     /* font-weight: 500; */
     text-shadow: 0.5px 0 0 #36B864;
 
 }
 
-.primaryBtn{
+.primaryBtn {
     background: #36B864;
     color: #fff;
     padding: 12px 32px;
@@ -45,16 +58,68 @@ h1, h2, h3, h4 , h5,h6 ,p{
     font-size: 16px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
+    /* border: 1px solid transparent; */
 }
+.primaryBtn:hover {
+
+    background: transparent;
+    border: 1px solid #666666;
+    color: #111D15;
+}
+
 /* header section style end */
+/* banner section style start */
+#bannerPart{
+    background: url('/images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bannerContent{
+    padding: 104px 0 ;
+}
+.bannerContent h5{
+   
+     font-size: 20px;
+    font-weight: 400;
+    color: #111D15;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-bottom: 12px;
+
+}
+.bannerContent h1{
+
+     font-size: 52px;
+    font-weight: 700;
+    color: #111D15;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-bottom: 24px;
+    line-height: 115%;
+    width: 610px;
+}
+.bannerContent p{
+     font-size: 18px;
+    font-weight: 400;
+    color: #666666;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-bottom: 40px;
+    line-height: 30px;
+    width: 543px;
+}
+.bannerBtn{
+    /* margin-bottom: 105px; */
+}
+/* banner section style end */
 /* footer section start */
-#footerPart{
+#footerPart {
     background: #111D15;
     color: #fff;
     padding: 100px 135px 20px 135px;
 
 }
-.footerLogo p{
+
+.footerLogo p {
     font-size: 16px;
     font-weight: 300;
     font-family: "Be Vietnam Pro", sans-serif;
@@ -64,4 +129,81 @@ h1, h2, h3, h4 , h5,h6 ,p{
     opacity: 0.8;
 
 }
+
+.footerMenu h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-bottom: 36px;
+}
+
+.footerMenu ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-bottom: 24px;
+    opacity: 0.8;
+
+}
+
+.mailHere h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-bottom: 26px;
+
+}
+
+.emailMe input[type="email"] {
+    padding: 10px 151px 10px 16px;
+
+    outline: 0;
+    border-radius: 6px;
+    margin-bottom: 26px;
+    border: 1px solid #808080;
+    background: transparent;
+
+}
+
+.emailMe input::placeholder {
+    color: #9E9E9E;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Be Vietnam Pro", sans-serif;
+
+
+}
+
+.ourMail {
+    /* border: 1px solid blue; */
+    position: relative;
+}
+
+.search {
+    /* border: 1px solid red; */
+    position: absolute;
+    right: 20px;
+    top: 14px;
+}
+
+.copy {
+    text-align: center;
+    border-top:1px solid #D9D9D9;
+}
+
+.copy h6 {
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-top: 24px;
+
+
+}
+
 /* footer section end */
