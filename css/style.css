@@ -58,13 +58,22 @@ p {
     font-size: 16px;
     font-weight: 500;
     font-family: "Poppins", sans-serif;
-    /* border: 1px solid transparent; */
+    border: 1px solid transparent;
+    transition: .4s;
 }
 .primaryBtn:hover {
 
     background: transparent;
     border: 1px solid #666666;
     color: #111D15;
+}
+.primaryBtn i {
+
+    
+  transform: rotate(-45deg);
+  margin-left: 10px;
+
+
 }
 
 /* header section style end */
@@ -74,6 +83,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    padding: 100px 0;
 }
 
 .bannerContent{
@@ -110,7 +120,115 @@ p {
 .bannerBtn{
     /* margin-bottom: 105px; */
 }
+
+
+
 /* banner section style end */
+/* service section style start */
+#servicePart{
+    padding: 100px 0;
+}
+.serviceText h3{
+    font-size: 44px;
+    font-weight: 600;
+    color: #111D15;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 120%;
+    width: 536px;
+    text-transform: capitalize;
+
+}
+.serviceDescription{
+    margin-bottom: 60px;
+}
+.serviceDescription h5{
+
+     font-size: 20px;
+    font-weight: 600;
+    color: #111D15;
+    font-family: "Be Vietnam Pro", sans-serif;
+    
+
+}
+.serviceDescription p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 150%;
+    width: 433px;
+}
+.line{
+    border-top: 1px solid #83A790;
+}
+.cardItem{
+    margin-top: 40px;
+}
+.card-title{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin-top: 16px;
+}
+.card-text{
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    font-family: "Be Vietnam Pro", sans-serif;
+    line-height: 150%;
+    width: 370px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+
+}
+/* service section style end */
+/* quote section style start */
+#quotePart{
+    padding: 75px 0;
+}
+.quoteContent h6{
+     font-size: 16px;
+    font-weight: 400;
+    color: #111D15;
+    font-family: "Lato", sans-serif; 
+    
+}
+.quoteContent h3{
+    font-size: 44px;
+    font-weight: 600;
+    color: #111D15;
+    font-family: "Outfit", sans-serif;
+    line-height: 120%;
+    width: 527px;
+    text-transform: capitalize;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.quoteContent p{
+  font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+    font-family: "Lato", sans-serif; 
+    line-height: 30px;
+    width: 516px;
+    margin-bottom: 52px;
+}
+.quoteImg img{
+    margin-left: 70px;
+
+}
+/* quote section style end */
+/* expert section start */
+.expertTitle h3{
+    width: 610px;
+
+}
+.expertDescription{
+    margin-left: 110px;
+}
+/* expert section end */
 /* footer section start */
 #footerPart {
     background: #111D15;
