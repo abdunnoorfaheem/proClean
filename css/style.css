@@ -359,7 +359,104 @@ p {
     color: #111D15;
 
 }
+.priceCardParent{
+    position: relative;
+}
+.priceCard{
+    background: #fff;
+    border-radius: 20px;
+ display: flex;
+ /* justify-content: center; */
+ width: 100%;
+ flex-direction: column;
+ /* align-items: center; */
+ padding: 30px 35px;
 
+ position: absolute;
+ z-index: 10;
+
+
+
+}
+.priceCard:hover{
+
+box-shadow: 0 5px 20px 0 rgba(228, 5, 5, 0.5); 
+transform: scaleY(1.05);
+transform-origin:top;
+
+
+}
+.unOrder{
+    padding-left: 35px;
+}
+.priceCard h5{
+    font-size: 20px;
+    font-weight: 500;
+    color: #111D15;
+     font-family: "Be Vietnam Pro", sans-serif;
+     text-align: center;
+     text-transform: uppercase;
+
+}
+.priceCard h3{
+   
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    font-family: "Be Vietnam Pro", sans-serif;
+    padding: 20px 40px;
+    
+   
+}
+.priceTag{
+ background: #36B864;
+ border-radius: 10px;
+}
+.priceCard h3 span{
+
+     font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+     font-family: "Be Vietnam Pro", sans-serif;
+
+}
+.unOrder{
+    margin-top: 36px;
+}
+.unOrder li{
+    color: #666666;
+    margin-bottom: 10px;
+    
+
+}
+
+.unOrder li{
+    list-style: disc;
+}
+.unOrder li::marker{
+    
+    font-size: 14px;
+}
+.priceCardBtn{
+    text-align: center;
+}
+.priceCardBtn a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #111D15;
+  
+     font-family: "Be Vietnam Pro", sans-serif;
+     border: 1px solid #666666;
+     padding: 20px 110px;
+     border-radius: 6px;
+     margin-top: 36px;
+     transition: .4s;
+}
+.priceCardBtn a:hover{
+  background: #36B864;
+  border: 1px solid transparent;
+  color: #fff;
+}
 /* price section end */
 /* footer section start */
 #footerPart {
